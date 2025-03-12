@@ -1,0 +1,77 @@
+/*our CSS code */
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    height: 760px;
+    width: 810px;
+    display: grid;
+    grid-template-columns: 200px 150px 200px 200px ;
+    grid-template-rows: 200px 100px 200px 100px;
+    gap: 20px;
+    background-color: #333333;
+}
+
+.item{
+    background-color: #fcf7f7;
+}
+
+
+.red{
+    background-color: #d31414;
+
+}
+.blue{
+    background-color: #3154ed;
+}
+.green{
+    background-color: #55df1d;
+    height: 180%;
+    position: relative;
+    bottom: 80px;
+}
+.yellow{
+    background-color: #f2ec1c;
+    grid-column: span 2;
+    height: 150%;
+}
+.pink{
+    background-color: #e51cf2;
+    height: 100px;
+    grid-area: 4 / 4 / -1 / -1;
+    margin-top: 100px;
+}
+.purple{
+    background-color: #7b1781;
+}
+
+
+
+
+.white3{
+    grid-column: span 3;
+}
+.white2{
+    width: 200px;
+    height: 100px;
+}
+.white4{
+    height: 300px;
+}
+.white5{
+    height: 200%;
+}
+.white6{
+    height: 100px;
+    width: 370px;
+    margin-top: 100px;
+}
+
+
